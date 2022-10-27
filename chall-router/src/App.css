@@ -1,0 +1,93 @@
+body {
+  background-image: url("./assets/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg");
+  background-size: 100%;
+}
+.header {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  line-height: 28.11px;
+  font-weight: 700;
+}
+.bar {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: white;
+}
+.content {
+  margin-left: 100px;
+  width: 700px;
+  height: 700px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.title {
+  width: 530px;
+  font-size: 48px;
+  line-height: 56.3px;
+  font-weight: 400;
+}
+.text {
+  width: 320px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.inputContainer {
+  width: 530px;
+  gap: 20px;
+}
+.input {
+  width: 320px;
+  height: 52px;
+  border: 0.5px solid grey;
+  padding-left: 20px;
+  border-radius: 4px;
+}
+.button {
+  width: 160px;
+  height: 56px;
+  background-color: #0bbef2;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  border: 0.5px solid grey;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.button:hover,
+.input:hover {
+  box-shadow: 0px 0px 5px 0px white;
+}
+.mini-container {
+  width: 700px;
+  height: 700px;
+  margin-left: 100px;
+}
+/* .container{
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+} */
+.page {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  color: white;
+  text-decoration: none;
+}
